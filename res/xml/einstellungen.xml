@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+     <PreferenceCategory android:title="Backup und Restore">
+                 <Preference android:key="backup" android:summary="Backup auf interne SD Karte erstellen." android:title="Backup erstellen" android:enabled="true"/>
+                 <Preference android:key="restore" android:summary="Backup muss auf der internen SD Karte liegen!" android:title="Backup einspielen" android:enabled="true"/>
+         
+     </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Über">
+        <Preference android:summary="Alexander Grüßung" android:title="Programmierer" android:enabled="false"/>
+        <Preference android:summary="Christiane Röser" android:title="Idee" android:enabled="false"/>
+        <Preference android:summary="www.your-style.it" android:title="Website" android:enabled="false"/>
+        <Preference android:summary="0.7 beta" android:key="version" android:title="Version" android:enabled="false" />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

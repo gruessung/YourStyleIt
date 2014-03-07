@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Your Style it!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <!-- NewItem Showcase -->
+
+	<string name="niT1">Wie heißt die Sache?</string>
+	<string name="niD1">Gib ihr einen Namen.</string>
+	
+	<string name="niT2">Was ist es?</string>
+	<string name="niD2">Ordne deine Klamotten in virtuelle Schubfächer.</string>
+	
+	<string name="niT3">Finde sie auch wieder...</string>
+	<string name="niD3">Gib ihr Schlagwörter für die Suche</string>
+	
+	<string name="niT4">Sieht sie gut aus?</string> 
+	<string name="niD4">Dann zeig es auf einem Foto!</string>
+	
+	<string name="niT5">Fertig?</string>
+	<string name="niD5">Vergiss das Speichern nicht :-)</string>
+	
+	<!--  Complete List Showcase -->
+	<string name="clT1">Welche Schublade willst du öffnen?</string>
+	<string name="clD1">Such dir eine aus und die Liste füllt sich mit deinen Klamotten. Willst du ein Teil löschen, dann halte es lange gedrückt. Für die Detailansicht klicke kurz.</string>
+	
+	<string name="clT2">Was neues gekauft?</string>
+	<string name="clD2">Dann ordne es gleich in deine Sammlung ein.</string>
+	
+	<!--  Complete List Outfit Showcase -->
+	<string name="clT3">Wow, die Klamotten passen zusammen!</string>
+	<string name="clD3">Deine Outfits erscheinen dann in der Liste. Zur Detailansicht klicke kurz, zum Löschen klicke lang darauf.</string>
+	
+	<!--  new Outfit Showcase -->
+	<string name="oT1">Wie nennst du dein Outfit?</string>
+	<string name="oD1">Such dir was aus :-)</string>
+	
+	<string name="oT2">Füge so viele Accessoires dazu wie du willst!</string>
+	<string name="oD2">Aber denk dran: Nur so viel du auch tragen kannst :-)</string>
+	
+	<string name="oT3">Hose, Oberteil, Jacke...</string>
+	<string name="oD3">...füge es hier hinzu!</string>
+	
+	<string name="oT4">Du brauchst dein Outfit nicht zu speichern!</string>
+	<string name="oD4">Das macht dein Kleiderschrank für dich automatisch :-) Gehe einfach hier zurück zur Übersicht.</string>
+
+	
+
+</resources>

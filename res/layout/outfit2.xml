@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E2A8"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:rowCount="4" >
+
+    <ImageView
+        android:id="@+id/o3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/o2"
+        android:layout_marginRight="47dp"
+        android:src="@drawable/new_outfit_hit" />
+
+    <Button
+        android:id="@+id/oSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Speichern &amp; Zurück" />
+
+    <EditText
+        android:id="@+id/oEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/o1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/oEdit"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/new_outfit_hit" />
+
+    <ImageView
+        android:id="@+id/o2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/o1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/new_outfit_hit" />
+
+    <ImageView
+        android:id="@+id/o4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/o3"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/new_outfit_hit" />
+
+    <ImageView
+        android:id="@+id/o5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/o4"
+        android:src="@drawable/new_outfit_hit" />
+
+</RelativeLayout>

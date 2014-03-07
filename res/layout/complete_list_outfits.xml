@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9BFBE"
+    android:orientation="vertical" >
+    
+    <!-- <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>-->
+
+  <!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/clBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:src="@android:drawable/ic_menu_revert" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deine_outfits" />
+
+    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/clAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/new_outfit" />
+
+    <!--<ListView
+        android:id="@+id/lvComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+    </ListView>-->
+        <com.fima.cardsui.views.CardUI
+        android:id="@+id/lvComplete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
